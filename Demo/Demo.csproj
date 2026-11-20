@@ -1,8 +1,8 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net10.0-windows10.0.19041.0</TargetFramework>
-    <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+	  <TargetFramework>net10.0-windows10.0.19041.0</TargetFramework>
+	  <TargetPlatformMinVersion>10.0.19041.0</TargetPlatformMinVersion>
     <RootNamespace>DemoWinUI_BD</RootNamespace>
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <Platforms>x86;x64;ARM64</Platforms>
@@ -41,7 +41,7 @@
     <PackageReference Include="Microsoft.WindowsAppSDK" Version="2.6.5" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Demo.Data\Demo.Data.csproj" />
+    <ProjectReference Include="..\Demo.Data1\Demo.Data1.csproj" />
   </ItemGroup>
 
   <!--
